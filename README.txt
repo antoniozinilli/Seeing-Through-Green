@@ -1,7 +1,5 @@
 # Seeing Through Green: replication code
 
-Code for "Seeing Through Green: Text-Based Classification of Green Patents".
-
 ## Contents
 
 `code/` holds the scripts:
@@ -20,7 +18,7 @@ Code for "Seeing Through Green: Text-Based Classification of Green Patents".
 - `36_citazioni_gold.py`: citations of classified green patents, population and gold standard
 - `37_tabella4_citazioni.py`: citation regressions
 - `22_diagnostica_bert.py`: matching and metrics for the unscreened expansions (imported by 41)
-- `41_bert_stessi_seed.py`: Word2Vec against BERT for Patents, same seeds
+- `41_bert_.py`: Word2Vec against BERT for Patents
 - `10_bert_espansione.py`: BERT expansion; matching functions used by the others
 - `15_w2v_grezzo.py`: unscreened Word2Vec expansion
 
